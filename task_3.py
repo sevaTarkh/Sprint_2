@@ -1,4 +1,4 @@
-class PointsForPlace():
+class PointsForPlace:
     
     @staticmethod
     def get_points_for_place(place):
@@ -11,7 +11,7 @@ class PointsForPlace():
             points = 101 - place
         return points
         
-class PointsForMeters():
+class PointsForMeters:
     
     @staticmethod
     def get_points_for_meters(meters):
